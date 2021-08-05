@@ -1,4 +1,12 @@
 {
-    "include":[],
+    "compilerOptions": {
+        "target": "ES5", 
+        "module": "es2015",
+        "lib": ["es2019"],
+        "jsx": "react",
+        "baseUrl": ".",
+        "esModuleInterop": true
+    },
+    "include":["src/**/*"],
     "exclude": []
 }
